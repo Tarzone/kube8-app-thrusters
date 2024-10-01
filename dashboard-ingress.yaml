@@ -15,3 +15,8 @@ spec:
               name: kubernetes-dashboard
               port:
                 number: 80
+          # defaultBackend: (Internall Service for handling page error)
+          #   service:
+          #     name: kubernetes-dashboard
+          #     port:
+          #       number: 80
